@@ -1,0 +1,12 @@
+#taxonomy.vocabulary.lugar_de_publicacion.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - entidad_libro
+name: 'Lugar de publicación'
+vid: lugar_de_publicacion
+description: ''
+hierarchy: 0
+weight: 0

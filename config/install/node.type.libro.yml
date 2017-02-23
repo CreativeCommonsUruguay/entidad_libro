@@ -1,0 +1,13 @@
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - entidad_libro
+name: 'Libro'
+type: libro
+description: 'Ficha de <em>libro</em>'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

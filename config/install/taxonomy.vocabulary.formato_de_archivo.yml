@@ -1,0 +1,12 @@
+#taxonomy.vocabulary.formato_de_archivo.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - entidad_libro
+name: 'Formato de archivo'
+vid: formato_de_archivo
+description: ''
+hierarchy: 0
+weight: 0

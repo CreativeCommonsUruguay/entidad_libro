@@ -1,0 +1,9 @@
+#entidad_libro.info.yml
+name: Entidad libro
+description: Crea el tipo de dato "Libro" y sus vocabularios asociados
+package: AUTORES
+dependencies:
+  - crea_estructura
+
+type: module
+core: 8.x

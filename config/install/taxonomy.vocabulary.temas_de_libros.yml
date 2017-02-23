@@ -1,0 +1,12 @@
+#taxonomy.vocabulary.temas_de_libros.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - entidad_libro
+name: 'Temas de libros'
+vid: temas_de_libros
+description: ''
+hierarchy: 0
+weight: 0

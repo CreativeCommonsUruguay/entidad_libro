@@ -1,0 +1,23 @@
+#field.field.node.libro.field_enlaces_al_contenido.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_enlaces_al_contenido
+    - node.type.libro
+  module:
+    - link
+id: node.libro.field_enlaces_al_contenido
+field_name: field_enlaces_al_contenido
+entity_type: node
+bundle: libro
+label: 'Enlaces al contenido'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

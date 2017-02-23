@@ -1,0 +1,19 @@
+#field.field.node.libro.field_editorial.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_editorial
+    - node.type.libro
+id: node.libro.field_editorial
+field_name: field_editorial
+entity_type: node
+bundle: libro
+label: Editorial
+description: 'La editorial o el editor del libro.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

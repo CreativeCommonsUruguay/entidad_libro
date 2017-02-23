@@ -1,0 +1,28 @@
+#field.field.node.libro.field_lugardepublicacion.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lugardepublicacion
+    - node.type.libro
+    - taxonomy.vocabulary.lugar_de_publicacion
+id: node.libro.field_lugardepublicacion
+field_name: field_lugardepublicacion
+entity_type: node
+bundle: libro
+label: 'Lugar de publicación'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      lugar_de_publicacion: lugar_de_publicacion
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

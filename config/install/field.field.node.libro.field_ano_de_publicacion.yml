@@ -1,0 +1,23 @@
+#field.field.node.libro.field_ano_de_publicacion.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ano_de_publicacion
+    - node.type.libro
+id: node.libro.field_ano_de_publicacion
+field_name: field_ano_de_publicacion
+entity_type: node
+bundle: libro
+label: 'Año de publicación'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1700
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

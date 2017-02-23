@@ -1,0 +1,28 @@
+#field.field.node.libro.field_formatodearchivo.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_formatodearchivo
+    - node.type.libro
+    - taxonomy.vocabulary.formato_de_archivo
+id: node.libro.field_formatodearchivo
+field_name: field_formatodearchivo
+entity_type: node
+bundle: libro
+label: 'Formato de archivo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      formato_de_archivo: formato_de_archivo
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+#field.field.node.libro.field_paginas.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paginas
+    - node.type.libro
+id: node.libro.field_paginas
+field_name: field_paginas
+entity_type: node
+bundle: libro
+label: Páginas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

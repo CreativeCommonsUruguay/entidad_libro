@@ -1,0 +1,12 @@
+#taxonomy.vocabulary.idioma.yml
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - entidad_libro
+name: Idioma
+vid: idioma
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,28 @@
+#field.field.node.libro.field_idioma.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_idioma
+    - node.type.libro
+    - taxonomy.vocabulary.idioma
+id: node.libro.field_idioma
+field_name: field_idioma
+entity_type: node
+bundle: libro
+label: Idioma
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      idioma: idioma
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,137 @@
+#core.entity_view_display.node.libro.default.yml
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.libro.field_ano_de_publicacion
+    - field.field.node.libro.field_coleccion
+    - field.field.node.libro.field_editorial
+    - field.field.node.libro.field_enlaces
+    - field.field.node.libro.field_enlaces_al_contenido
+    - field.field.node.libro.field_formatodearchivo
+    - field.field.node.libro.field_idioma
+    - field.field.node.libro.field_isbn
+    - field.field.node.libro.field_lugardepublicacion
+    - field.field.node.libro.field_numero_de_edicion
+    - field.field.node.libro.field_paginas
+    - field.field.node.libro.field_portada
+    - field.field.node.libro.field_subtitulo
+    - field.field.node.libro.field_temas
+    - node.type.libro
+  module:
+    - image
+    - link
+    - user
+_core:
+  default_config_hash: bb_bT_-bfoZ8iy4KLQbSmML7E7C7Wmou2sZyp3ajN6c
+id: node.libro.default
+targetEntityType: node
+bundle: libro
+mode: default
+content:
+  field_ano_de_publicacion:
+    weight: 4
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_coleccion:
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_editorial:
+    weight: 7
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_enlaces_al_contenido:
+    weight: 14
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_formatodearchivo:
+    weight: 12
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_idioma:
+    weight: 11
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_isbn:
+    weight: 9
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_lugardepublicacion:
+    weight: 5
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_numero_de_edicion:
+    weight: 6
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_paginas:
+    weight: 10
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_portada:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_subtitulo:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_temas:
+    weight: 13
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_enlaces: true
+  langcode: true
