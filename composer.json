@@ -1,0 +1,27 @@
+{
+    "name": "drupal/entidad_libro",
+    "description": "Crea el tipo de dato 'Libro' y sus vocabularios asociados",
+    "type": "drupal-module",
+    "homepage": "https://github.com/CreativeCommonsUruguay/entidad_libro",
+    "license": "GPL",
+    "authors": [
+      {
+          "name": "Rodrigo",
+          "email": "rbarbano@gmail.com",
+          "role": "Maintainer"
+      },
+      {
+          "name": "Marco",
+          "email": "marcoscalone@gmail.com",
+          "role": "Co-Maintainer"
+      }
+    ],
+    "support": {
+       "issues": "https://github.com/CreativeCommonsUruguay/entidad_libro/issues",
+       "source": "https://github.com/CreativeCommonsUruguay/entidad_libro"
+     },
+     "minimum-stability": "dev",
+     "require": {
+       "drupal/crea_estructura": "*"
+     }
+}
