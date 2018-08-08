@@ -1,7 +1,7 @@
 {
     "name": "drupal/entidad_libro",
     "description": "Crea el tipo de dato 'Libro' y sus vocabularios asociados",
-    "type": "drupal-module",
+    "type": "drupal-custom-module",
     "homepage": "https://github.com/CreativeCommonsUruguay/entidad_libro",
     "license": "GPL",
     "authors": [
